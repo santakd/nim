@@ -1,3 +1,8 @@
+#   __.-._
+#   '-._"7'
+#    /'.-c
+#    |  //
+#   _)_/||
 # nim_game.py
 # Author: santakd
 # Contact: santakd at gmail dot com
