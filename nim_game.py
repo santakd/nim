@@ -1,3 +1,22 @@
+# nim_game.py
+# Author: santakd
+# Contact: santakd at gmail dot com
+# Date: February 02, 2026
+# Version: 1.0.8
+# License: MIT License
+
+# This is a two-player strategic game where the objective is to force your opponent to be left with exactly one stick. 
+# The player who is left with the final single stick loses the game. 
+# Every move should therefore be made with the goal of leaving your opponent with one remaining stick.
+
+# Game Configuration
+
+# The game board consists of three rows of sticks:
+# Row 1: 3 sticks
+# Row 2: 5 sticks
+# Row 3: 7 sticks
+# The game begins with a total of 15 sticks.
+
 import pygame
 from pygame.locals import *
 import time
@@ -7,7 +26,7 @@ import math
 import random
 
 # ========================= Logging =========================
-logging.basicConfig(filename='nimgame.log', level=logging.INFO, 
+logging.basicConfig(filename='nim_game.log', level=logging.INFO, 
                     format='%(asctime)s - %(message)s')
 
 nodes = 0
@@ -107,11 +126,12 @@ font = pygame.font.SysFont(None, 48)
 small_font = pygame.font.SysFont(None, 36)
 tiny_font = pygame.font.SysFont(None, 24)  # For longer messages
 
+# ========================= Color Definitions =========================
 WHITE = (245, 245, 245)
-BLACK = (11, 11, 11)
-BLUE = (22, 22, 245)
-GREEN = (22, 245, 22)
-RED = (245, 22, 22)
+BLACK = (22, 22, 22)
+BLUE = (22, 22, 225)
+GREEN = (22, 225, 22)
+RED = (225, 22, 22)
 GRAY = (180, 180, 180)
 
 # ========================= Helper Functions =========================
