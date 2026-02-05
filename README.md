@@ -49,3 +49,20 @@ Easy – Random or shallow-depth strategy
 Medium – Depth-limited Minimax with Alpha–Beta pruning
 Hard – Full optimal Minimax with Alpha–Beta pruning (perfect play)
 Difficulty selection should affect only AI players and be configurable at game start.
+
+## Tests
+
+If you add unit tests, include instructions to run them here (for example, using pytest):
+
+```bash
+pip install pytest
+pytest
+```
+
+## License
+
+MIT License.
+
+## Contact
+
+If you have questions or suggestions, open an issue or submit a pull request. Mention @santakd for visibility.
