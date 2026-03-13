@@ -8,10 +8,9 @@ Ready to make your move?
 Choose wisely… 🧠✨
 
 ## Objective
-
-Design a two-player strategic game called Take 1, where the objective is to force your opponent to be left with exactly one stick. 
-The player who is left with the final single stick loses the game. 
-Every move should therefore be made with the goal of leaving your opponent with one remaining stick.
+This is a two-player strategic game called Nim. At first glance the rules are simple, but victory demands careful planning.
+The goal is to force your opponent to be left with exactly one stick. Whoever faces the final solitary stick loses the game.
+Each move becomes a tactical decision—players must think several steps ahead, carefully removing sticks while setting traps that corner their opponent into the unavoidable final move.
 
 ## Game Configuration
 
