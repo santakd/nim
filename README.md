@@ -34,7 +34,7 @@ The player who is left with that final stick loses the game.
 ## Uniqueness & Guarantees
 
 The game is deterministic, finite, and has perfect information.
-The game is guaranteed to never result in a draw — one player must always lose.
+The game is guaranteed to never result in a draw — one player must always win.
 
 ## Gameplay Modes
 
