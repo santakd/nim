@@ -49,6 +49,10 @@ Medium – Depth-limited Minimax with Alpha–Beta pruning
 Hard – Full optimal Minimax with Alpha–Beta pruning (perfect play)
 Difficulty selection should affect only AI players and be configurable at game start.
 
+## ⭐ Like it? Star it!
+
+If you find this project interesting, please give it a star — it helps others discover it too.
+
 ## Tests
 
 If you add unit tests, include instructions to run them here (for example, using pytest):
